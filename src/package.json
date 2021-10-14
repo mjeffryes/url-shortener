@@ -1,11 +1,13 @@
 {
-  "name": "workspaces",
+  "name": "url-shortener",
   "version": "1.0.0",
   "description": "Packages implementing the url-shortener service lambdas",
   "author": "Mathew Jeffryes <matt@mjeeffryes.net>",
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "lookup"
+    "common",
+    "lookup",
+    "new"
   ]
 }

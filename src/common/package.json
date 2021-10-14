@@ -1,0 +1,9 @@
+{
+  "name": "@url-shortener/common",
+  "packageManager": "yarn@3.0.2",
+  "version": "1.0.0",
+  "description": "Implements the short url creation lambda",
+  "author": "Mathew Jeffryes <matt@mjeffryes.net>",
+  "license": "MIT",
+  "private": true
+}

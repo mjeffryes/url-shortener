@@ -3,11 +3,11 @@ module "dynamodb_table" {
   version = "~> 1.0"
 
   name     = "${random_pet.this.id}-urls"
-  hash_key = "shortUrl"
+  hash_key = "shortUrlSlug"
 
   attributes = [
     {
-      name = "shortUrl"
+      name = "shortUrlSlug"
       type = "S"
     },
   ]
