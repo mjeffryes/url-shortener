@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -uex -o pipefail
+
+# deploy the service (This script is intended to be run within the dev docker environment)
+
+script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd "$script_dir/../tf"
+
+terraform apply

@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -uex -o pipefail
+
+# deploy the service (This script is intended to be run within the dev docker environment)
+
+script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd "$script_dir/../src"
+
+yarn install
+yarn workspaces foreach run build

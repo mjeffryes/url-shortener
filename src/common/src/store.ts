@@ -24,9 +24,7 @@ export function inMemoryStore(records: Record<string, UrlRecord> = {}): Store {
     },
     put: async (data: UrlRecord) => {
       const { shortUrlSlug } = data;
-      console.log(shortUrlSlug);
       if (records[shortUrlSlug] !== undefined) {
-        console.log("A");
         return false;
       }
       records[shortUrlSlug] = data;

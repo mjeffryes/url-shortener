@@ -2,6 +2,8 @@ module github.com/mjeffryes/url-shortener
 
 go 1.17
 
+require github.com/gruntwork-io/terratest v0.38.2
+
 require (
 	cloud.google.com/go v0.83.0 // indirect
 	github.com/agext/levenshtein v1.2.3 // indirect
@@ -20,7 +22,6 @@ require (
 	github.com/google/uuid v1.2.0 // indirect
 	github.com/googleapis/gnostic v0.4.1 // indirect
 	github.com/gruntwork-io/go-commons v0.8.0 // indirect
-	github.com/gruntwork-io/terratest v0.38.2 // indirect
 	github.com/hashicorp/errwrap v1.0.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.0 // indirect
 	github.com/hashicorp/go-version v1.3.0 // indirect

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -uex -o pipefail
+
+# run integration tests (This script is intended to be run within the dev docker environment)
+
+script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd "$script_dir/../test"
+go test -v
+

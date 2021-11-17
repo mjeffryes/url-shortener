@@ -1,0 +1,14 @@
+---
+version: "2"
+services:
+  app:
+    image: mjeffryes/terratest:latest
+    build: .
+    volumes:
+      - ~/.aws/credentials:/root/.aws/credentials
+      - ~/.aws/config:/root/.aws/config
+      - ./:/go/app
+    environment:
+      - AWS_SHARED_CREDENTIALS_FILE=/root/.aws/credentials
+      - AWS_CONFIG_FILE=/root/.aws/config
+      - AWS_PROFILE
