@@ -6,8 +6,7 @@ This is a sample project demonstrating serverless deployment and testing. It is 
 
 ## Architecture
 
-[Architecture Diagram](https://raw.githubusercontent.com/mjeffryes/url-shortener/media/url_shortener_architecture.svg)
-
+![Architecture Diagram](https://raw.githubusercontent.com/mjeffryes/url-shortener/main/media/url_shortener_architecture.svg)
 
 ## Deployment
 
