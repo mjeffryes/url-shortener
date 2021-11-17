@@ -5,7 +5,9 @@ A serverless URL shortening service (think btly.com or tinyurl.com ) that runs o
 This is a sample project demonstrating serverless deployment and testing. It is functional, but not fully-featured.
 
 ## Architecture
-(insert pretty picture here)
+
+[Architecture Diagram](https://raw.githubusercontent.com/mjeffryes/url-shortener/media/url_shortener_architecture.svg)
+
 
 ## Deployment
 
